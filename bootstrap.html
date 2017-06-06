@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <style    type="text/css">
+        .center {
+            text-align:center;
+        }
+
+        .input
+        {
+            border-style:groove;
+            padding: 10px;
+            margin-bottom:20px;
+        }
+
+        .minput
+        {
+            border-style:groove;
+            padding: 10px;
+            background-color: lightgray;
+            margin-bottom: 0px;
+        }
+
+        .sinput
+        {
+            border-style:groove;
+            padding: 10px;
+            border-top: 0px;
+        }
+        .linput
+        {
+            height: 30px;
+
+        }
+        .buttons
+        {
+            background-color: darkblue;
+            color: blanchedalmond;
+            width: 100px;
+            text-align: center;
+            margin-left:600px;
+        }
+
+    </style>
+</head>
+<body>
+<h1   class="center">统一建模语言理论测试</h1>
+<div  class="input">
+    <table  width="1200px">
+        <tr>
+            <td   width="400px" ><b>考试科目：统一建模考试</b></td>
+            <td   width="400px" ><b>时间</b>：100分钟</td>
+            <td   width="400px" ><b>得分</b>：</td>
+        </tr>
+    </table>
+</div>
+<div  class="input">
+    <table   width="1200px">
+        <tr>
+            <td   width="400px" ><b>班级：(必填) <input></b></td>
+            <td   width="400px" ><b>学号：(必填) <input></b></td>
+            <td   width="400px" ><b>姓名：(必填) <input></b></td>
+        </tr>
+    </table>
+</div>
+<h3  class="minput">一、填空题  (每空5分，共20分)</h3>
+<div  class="sinput" >  <p><b>1.UML的中文全称是：</b></p>
+    <input><br>
+    <p><b>2.对象最突出的特征是：</b></p>
+    <input> <input> <input><br>
+</div>
+
+<h3  class="minput">二、选择题（每题10分，共20分）</h3>
+<div   class="sinput">
+    <p>1.UML与软件工程的关系是：</p>
+    <form><input type="radio"  name="关系" value="UML 就是软件工程">(A) UML就是软件工程<br>
+        <input type="radio"  name="关系" value=" UML参与到软件工程中软件开发过程的几个阶段">(B) UML参与到软件工程钟软件开发过程的几个阶段<br>
+        <input type="radio"  name="关系" value=" UML与软件工程无关">(C) UML与软件工程无关<br>
+        <input type="radio"  name="关系" value=" UML是软件工程的一部分">(D) UML是软件工程的一部分<br>
+        <p>2.java语言支持:</p>
+    </form>
+    <form><input type="radio"  name="关系" value="(A) 单维系">(A) 多维系<br>
+        <input type="radio"  name="关系" value="(B) 多继承">(B) 单维系<br>
+        <input type="radio"  name="关系" value="(C) 单继承和多继承都支持">(C) 单维系和多维系都支持<br>
+        <input type="radio"  name="关系"  value="(D) 单继承和多继承都不支持">(D)单维系和多维系都不支持<br>
+    </form>
+</div>
+<h3   class="minput">三、多项选择题（每题10分，共20分）</h3>
+<div    class="sinput">
+    <p> 1.用例的粒度分为以下哪三种：</p>
+    <form>
+        <input  type="checkbox"   name="关系" value="(A)概述级" >(A) 概述级<br>
+        <input  type="checkbox"   name="关系" value="(B)需求级" >(B) 需求级 <br>
+        <input  type="checkbox"   name =""    value="" > (C) 用户目标级<br>
+        <input  type="checkbox"    name=""    value="">   (D) 子功能级<br>
+    </form>
+    <p>2.例图由以下哪三部分组成</p>
+    <form>
+        <input type="checkbox"    name=""  value=""  >(A) 名称（name）<br>
+        <input type="checkbox"    name=""  value=""  > (B) 属性（attribute)<br>
+        <input type="checkbox"  name=""   value=""  > (C) 操作（operation） <br>
+        <input type="checkbox"  name=""  value=""   > (D) 方法（function） <br>
+    </form>
+</div>
+<h3   class="minput">四、判断题（每题10分，共20分）</h3>
+<div   class="sinput">
+    <form> 1.用例图只是用于和客户交流和沟通的，用于确定需求。<input type="radio"   name="对错"   value=""  >
+     <span class="glyphicon glyphicon-ok"></span>
+            <input type="radio"    name="对错"   value="" >
+ <span class="glyphicon glyphicon-remove"></span>
+    </form>
+    <form>2.在状态图中，终止状态在一个状态图中允许有任意多个。
+        <input  type="radio"  name="对错"  value="">
+          <span    class="glyphicon glyphicon-ok"></span>
+            <input  type="radio"  name="对错"  value="">
+ <span class="glyphicon glyphicon-remove"></span>
+    </form>
+</div>
+<h3     class="minput">五、解答题（每题20分，共20分）</h3>
+<b>1.简述什么是模型以及模型的表现方式？</b>
+<textarea    cols="155"  rows="8"  >
+</textarea>
+<div   class="center">
+<button   type="button"   class="btn  btn-info   btn-lg"    active   >计算分数</button>
+</div>
+</body>
+</html>
